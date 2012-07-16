@@ -12,7 +12,10 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.9.0'
 end
-  
+
+gem 'annotate', '>=2.5.0.pre1', group: :development
+gem 'pry-rails', group: :development
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
